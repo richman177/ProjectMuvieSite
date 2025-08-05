@@ -1,7 +1,7 @@
 from django.core.validators import MinValueValidator 
 from django.db import models 
 from django.db.models import PositiveSmallIntegerField 
-from django.contrib.auth.models import  AbstractUser
+from django.contrib.auth.models import  AbstractUser 
 from phonenumber_field.modelfields import PhoneNumberField
 from multiselectfield import MultiSelectField
 
